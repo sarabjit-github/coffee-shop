@@ -30,6 +30,12 @@
 }
 
 @media (max-width: 768px) {
+  .about {
+    margin: 7rem auto 7rem auto;
+  }
+}
+
+@media (max-width: 768px) {
   .about .a-left {
     display: none;
   }

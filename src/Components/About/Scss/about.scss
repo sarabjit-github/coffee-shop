@@ -20,6 +20,9 @@ $light: #7e7d7a;
   @media (max-width: 990px) {
     gap: 25px;
   }
+  @media (max-width: 768px) {
+    margin: 7rem auto 7rem auto;
+  }
   .a-left {
     // position: relative;
     @media (max-width: 768px) {
