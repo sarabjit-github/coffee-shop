@@ -21,6 +21,9 @@ header {
   justify-content: space-between;
   align-items: center;
   z-index: 10;
+  @media (max-width:990px) {
+    padding: 20px 0;
+  }
   .left {
     z-index: 10;
     display: flex;
