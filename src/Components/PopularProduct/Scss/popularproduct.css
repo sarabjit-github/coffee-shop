@@ -1,0 +1,91 @@
+.popular-section {
+  max-width: 1270px;
+  width: 100%;
+  margin: 0 auto;
+  height: 300px;
+  position: relative;
+}
+
+@media (max-width: 1300px) {
+  .popular-section {
+    height: 100%;
+    margin-top: -19rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .popular-section {
+    margin-top: -16rem;
+  }
+}
+
+.popular-section .container {
+  position: absolute;
+  top: -100%;
+  width: inherit;
+  height: inherit;
+}
+
+@media (max-width: 1300px) {
+  .popular-section .container {
+    position: static;
+  }
+}
+
+.popular-section .container .p-heading {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.popular-section .container .p-container {
+  width: inherit;
+  height: 367px;
+  border-radius: 4rem;
+  margin-top: 9rem;
+  position: relative;
+}
+
+@media (max-width: 1300px) {
+  .popular-section .container .p-container {
+    height: 100%;
+    margin-top: 4rem;
+  }
+}
+
+.popular-section .container .p-container .card-background {
+  position: absolute;
+  top: 0px;
+  left: 0%;
+  height: 100%;
+  max-width: 1270px;
+  width: 100%;
+  border-radius: 4rem;
+  background: #f9d9aa;
+  -webkit-clip-path: polygon(0 8%, 100% 16%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 8%, 100% 16%, 100% 100%, 0% 100%);
+}
+
+.popular-section .container .p-container .card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 3rem;
+  position: relative;
+  top: -30%;
+  padding: 2rem;
+}
+
+@media (max-width: 1300px) {
+  .popular-section .container .p-container .card-container {
+    margin-top: -2rem;
+  }
+}
+/*# sourceMappingURL=popularproduct.css.map */

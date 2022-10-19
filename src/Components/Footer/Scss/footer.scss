@@ -1,0 +1,99 @@
+$accent: #f6ebda;
+$primary: #ff902b;
+$secondary: #2f2105;
+$light: #7e7d7a;
+footer {
+  width: 100%;
+  background: $accent;
+  min-height: 300px;
+  padding: 2rem;
+  margin-top: 8rem;
+  .f-con {
+    max-width: 1150px;
+    margin: 0 auto;
+    .company-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 4rem;
+      .logo {
+        img {
+          max-width: 300px;
+          width: 100%;
+        }
+      }
+      .text {
+        max-width: 600px;
+        font-size: 0.9rem;
+        letter-spacing: 0.5px;
+        font-weight: 400;
+        color: $secondary;
+      }
+    }
+    .links-con {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 4rem;
+      h3 {
+        color: $secondary;
+        font-weight: 500;
+      }
+      .site-map {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        a {
+          text-decoration: none;
+          color: $light;
+          font-size: 0.9rem;
+          &:hover {
+            color: $secondary;
+          }
+        }
+      }
+      .social {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        a {
+          display: flex;
+          // justify-content: center;
+          align-items: center;
+          text-decoration: none;
+          gap: 0.5rem;
+          &:hover > span {
+            color: $secondary;
+          }
+          span {
+            color: $light;
+            font-size: 0.9rem;
+          }
+        }
+        img {
+          width: 25px;
+        }
+      }
+    }
+    .copyright {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      p {
+        font-size: 0.9rem;
+        color: $light;
+        letter-spacing: 0.5px;
+        a {
+          text-decoration: none;
+          color: $secondary;
+        }
+      }
+    }
+  }
+}

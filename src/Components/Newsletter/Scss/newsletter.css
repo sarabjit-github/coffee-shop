@@ -1,0 +1,109 @@
+.newsletter-con {
+  max-width: 1170px;
+  min-height: 392px;
+  margin: 0 auto 6rem auto;
+  background: url(../../../Img/coffee-banner.jpg) no-repeat center;
+  border-radius: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.newsletter-con .n-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+.newsletter-con .n-con h1 {
+  text-align: center;
+  color: white;
+}
+
+.newsletter-con .n-con .n-input {
+  width: 486px;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .newsletter-con .n-con .n-input {
+    max-width: 420px;
+  }
+}
+
+@media (max-width: 600px) {
+  .newsletter-con .n-con .n-input {
+    width: 80%;
+  }
+}
+
+.newsletter-con .n-con .n-input input {
+  width: 100%;
+  background: white;
+  border-radius: 42px;
+  outline: none;
+  padding: 1rem;
+  border: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.newsletter-con .n-con .n-input input::-webkit-input-placeholder {
+  color: #7e7d7a;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.newsletter-con .n-con .n-input input:-ms-input-placeholder {
+  color: #7e7d7a;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.newsletter-con .n-con .n-input input::-ms-input-placeholder {
+  color: #7e7d7a;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.newsletter-con .n-con .n-input input::placeholder {
+  color: #7e7d7a;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.newsletter-con .n-con .n-input button {
+  position: absolute;
+  right: 7px;
+  top: 5.4px;
+  background: #2f2105;
+  border: none;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .newsletter-con .n-con .n-input button {
+    padding: 0.65rem 1rem;
+  }
+}
+
+.newsletter-con .n-con .n-input button:hover {
+  opacity: .9;
+}
+/*# sourceMappingURL=newsletter.css.map */

@@ -1,0 +1,297 @@
+.hero-con {
+  width: 100%;
+  height: 970px;
+}
+
+.hero {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  height: 970px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero .middle-section {
+  max-width: 1160px;
+  width: 100%;
+  margin: 4rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .hero .middle-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin: 1rem auto;
+  }
+}
+
+.hero .middle-section .left {
+  max-width: 490px;
+}
+
+@media (max-width: 900px) {
+  .hero .middle-section .left {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero .middle-section .left {
+    max-width: 500px;
+    text-align: center;
+  }
+}
+
+.hero .middle-section .left .b-heading h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #2f2105;
+}
+
+@media (max-width: 1050px) {
+  .hero .middle-section .left .b-heading h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero .middle-section .left .b-heading h1 {
+    line-height: 1.35;
+  }
+}
+
+.hero .middle-section .left .b-heading h1 span {
+  color: #ff902b;
+}
+
+.hero .middle-section .left .sm-heading {
+  max-width: 395px;
+  margin: 1.75rem 0;
+  max-width: 395px;
+  margin: 1.75rem 0;
+  position: relative;
+  top: -4px;
+}
+
+@media (max-width: 768px) {
+  .hero .middle-section .left .sm-heading {
+    margin: 1.25rem auto;
+  }
+}
+
+.hero .middle-section .left .sm-heading p {
+  font-size: 1.125rem;
+  color: #7e7d7a;
+}
+
+@media (max-width: 1050px) {
+  .hero .middle-section .left .sm-heading p {
+    font-size: 1.15rem;
+  }
+}
+
+.hero .middle-section .left .h-btns .primary-btn {
+  margin-right: 2rem;
+  background: #2f2105;
+  color: white;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-color: #2f2105;
+}
+
+.hero .middle-section .left .h-btns .primary-btn span {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #ff902b;
+  margin-left: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .middle-section .left .h-btns .primary-btn span svg path {
+  stroke: white;
+}
+
+.hero .middle-section .left .h-btns .secondary-btn {
+  background: none;
+  border-color: transparent;
+  color: #f4ae26;
+  font-size: 12px;
+  padding: 0.5rem 1.2rem;
+}
+
+.hero .middle-section .left .h-btns .secondary-btn:hover {
+  color: #ff902b;
+  border: 2px solid #ff902b;
+}
+
+.hero .middle-section .right .img-container {
+  position: relative;
+  width: 420px;
+  height: 420px;
+  background: #2f2105;
+  background-image: url(../../../Img/Union.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-blend-mode: screen;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 1050px) {
+  .hero .middle-section .right .img-container {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero .middle-section .right .img-container {
+    width: 360px;
+    height: 360px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero .middle-section .right .img-container {
+    width: 320px;
+    height: 320px;
+  }
+}
+
+.hero .middle-section .right .img-container .group {
+  position: absolute;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  border-radius: 2.8rem;
+  background: white;
+  padding: 0.7rem 2.5rem;
+  z-index: 12;
+}
+
+@media (max-width: 1300px) {
+  .hero .middle-section .right .img-container .group {
+    padding: 0.5rem 1.4rem;
+  }
+}
+
+.hero .middle-section .right .img-container .group::before {
+  content: "";
+  position: absolute;
+  border-radius: inherit;
+  top: -13%;
+  left: -6%;
+  width: 112%;
+  height: 125%;
+  background: linear-gradient(92.95deg, rgba(255, 255, 255, 0.4) 0.82%, rgba(255, 255, 255, 0.7) 96.47%);
+  z-index: -1;
+}
+
+@media (max-width: 1300px) {
+  .hero .middle-section .right .img-container .group::before {
+    width: 112%;
+    height: 125%;
+  }
+}
+
+.hero .middle-section .right .img-container .group span {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #2f2105;
+}
+
+@media (max-width: 1300px) {
+  .hero .middle-section .right .img-container .group span {
+    font-size: 1.05rem;
+  }
+}
+
+.hero .middle-section .right .img-container .group span img {
+  position: relative;
+  top: 3px;
+  margin-left: 0.5rem;
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 1300px) {
+  .hero .middle-section .right .img-container .group span img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.hero .middle-section .right .img-container .element1 {
+  top: 5%;
+  left: -5%;
+}
+
+.hero .middle-section .right .img-container .element1::before {
+  left: -5%;
+  width: 110%;
+}
+
+@media (max-width: 1300px) {
+  .hero .middle-section .right .img-container .element1::before {
+    left: -4%;
+    width: 108%;
+  }
+}
+
+.hero .middle-section .right .img-container .element2 {
+  top: 25%;
+  right: -5%;
+}
+
+@media (max-width: 1300px) {
+  .hero .middle-section .right .img-container .element2 {
+    top: 20%;
+    right: 2%;
+  }
+}
+
+.hero .middle-section .right .img-container .element3 {
+  top: 75%;
+  left: 5%;
+}
+/*# sourceMappingURL=hero.css.map */

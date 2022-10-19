@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,UADM,CACN,KAAK,CAAA;EACD,MAAM,EAAE,6CAA6C;EACrD,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "menucard.scss"
+    ],
+    "names": [],
+    "file": "menucard.css"
+}

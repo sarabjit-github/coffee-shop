@@ -1,0 +1,74 @@
+$accent: #f6ebda;
+$primary: #ff902b;
+$secondary: #2f2105;
+$light: #7e7d7a;
+
+.popular-section {
+  // padding: 0 2rem;
+  max-width: 1270px;
+  width: 100%;
+  margin: 0 auto;
+  // background: red;
+  height: 300px;
+  // height: 100%;
+  position: relative;
+  @media (max-width: 1300px) {
+    height: 100%;
+    margin-top: -19rem;
+  }
+  @media (max-width: 375px) {
+    margin-top: -16rem;
+  }
+  .container {
+    position: absolute;
+    top: -100%;
+    width: inherit;
+    height: inherit;
+    // background: aliceblue;
+    @media (max-width: 1300px) {
+      position: static;
+    }
+    .p-heading {
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+    .p-container {
+      width: inherit;
+      height: 367px;
+      // height: 100%;
+      // background: #f9d9aa;
+      border-radius: 4rem;
+      margin-top: 9rem;
+      position: relative;
+      @media (max-width: 1300px) {
+        height: 100%;
+        margin-top: 4rem;
+      }
+      .card-background {
+        position: absolute;
+        top: 0px;
+        left: 0%;
+        // height: 367px;
+        height: 100%;
+        max-width: 1270px;
+        width: 100%;
+        border-radius: 4rem;
+        background: #f9d9aa;
+        clip-path: polygon(0 8%, 100% 16%, 100% 100%, 0% 100%);
+      }
+      .card-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 3rem;
+        position: relative;
+        top: -30%;
+        padding: 2rem;
+        @media (max-width: 1300px) {
+          margin-top: -2rem;
+        }
+      }
+    }
+  }
+}

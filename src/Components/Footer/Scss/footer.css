@@ -1,0 +1,146 @@
+footer {
+  width: 100%;
+  background: #f6ebda;
+  min-height: 300px;
+  padding: 2rem;
+  margin-top: 8rem;
+}
+
+footer .f-con {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+footer .f-con .company-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+footer .f-con .company-info .logo img {
+  max-width: 300px;
+  width: 100%;
+}
+
+footer .f-con .company-info .text {
+  max-width: 600px;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  color: #2f2105;
+}
+
+footer .f-con .links-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 4rem;
+}
+
+footer .f-con .links-con h3 {
+  color: #2f2105;
+  font-weight: 500;
+}
+
+footer .f-con .links-con .site-map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.5rem;
+}
+
+footer .f-con .links-con .site-map a {
+  text-decoration: none;
+  color: #7e7d7a;
+  font-size: 0.9rem;
+}
+
+footer .f-con .links-con .site-map a:hover {
+  color: #2f2105;
+}
+
+footer .f-con .links-con .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.5rem;
+}
+
+footer .f-con .links-con .social a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  gap: 0.5rem;
+}
+
+footer .f-con .links-con .social a:hover > span {
+  color: #2f2105;
+}
+
+footer .f-con .links-con .social a span {
+  color: #7e7d7a;
+  font-size: 0.9rem;
+}
+
+footer .f-con .links-con .social img {
+  width: 25px;
+}
+
+footer .f-con .copyright {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+footer .f-con .copyright p {
+  font-size: 0.9rem;
+  color: #7e7d7a;
+  letter-spacing: 0.5px;
+}
+
+footer .f-con .copyright p a {
+  text-decoration: none;
+  color: #2f2105;
+}
+/*# sourceMappingURL=footer.css.map */

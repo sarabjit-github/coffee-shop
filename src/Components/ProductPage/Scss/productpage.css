@@ -1,0 +1,130 @@
+.product-con {
+  margin-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 768px) {
+  .product-con {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+}
+
+.product-con .p-img {
+  text-align: center;
+}
+
+.product-con .p-img img {
+  width: 450px;
+  border-radius: 16px;
+}
+
+@media (max-width: 990px) {
+  .product-con .p-img img {
+    width: 360px;
+  }
+}
+
+@media (max-width: 425px) {
+  .product-con .p-img img {
+    width: 320px;
+  }
+}
+
+.product-con .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: .5rem;
+}
+
+.product-con .right h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+
+.product-con .right h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.product-con .right > p {
+  max-width: 500px;
+  font-size: 1rem;
+  line-height: 1.8;
+  letter-spacing: .5px;
+}
+
+.product-con .right button {
+  position: relative;
+  padding: .8rem 1.4rem;
+  border-radius: 44px;
+  border: none;
+  outline: none;
+  background: #ff902b;
+  font-weight: 500;
+  font-size: 1.05rem;
+  color: #2f2105;
+  cursor: pointer;
+  margin-top: 1rem;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.product-con .right button:hover {
+  background: rgba(255, 144, 43, 0.8);
+}
+
+.product-con .right button:disabled {
+  cursor: no-drop;
+}
+
+.product-con .right .p-rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: .5rem;
+}
+
+@media (max-width: 768px) {
+  .product-con .right .p-rating {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.product-con .right .p-rating p {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.product-con .right .p-rating img {
+  position: relative;
+  top: -2px;
+  height: 1.5rem;
+}
+/*# sourceMappingURL=productpage.css.map */

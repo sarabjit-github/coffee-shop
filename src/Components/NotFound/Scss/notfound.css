@@ -1,0 +1,55 @@
+.not-found {
+  max-width: 1150px;
+  min-height: 710px;
+  height: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 480px) {
+  .not-found {
+    min-height: 300px;
+  }
+}
+
+.not-found img {
+  max-width: 600px;
+  height: auto;
+  min-width: 300px;
+}
+
+@media (max-width: 610px) {
+  .not-found img {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 480px) {
+  .not-found img {
+    max-width: 320px;
+  }
+}
+
+.not-found h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .not-found h1 {
+    font-size: 1.7rem;
+  }
+}
+/*# sourceMappingURL=notfound.css.map */

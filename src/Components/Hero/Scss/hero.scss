@@ -1,0 +1,215 @@
+$accent: #f6ebda;
+$primary: #ff902b;
+$secondary: #2f2105;
+$light: #7e7d7a;
+
+.hero-con {
+  width: 100%;
+  height: 970px;
+}
+.hero {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  // min-height: 100vh;
+  height: 970px;
+  // background: $accent;
+  position: relative;
+  overflow: hidden;
+  .middle-section {
+    max-width: 1160px;
+    width: 100%;
+    margin: 4rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    @media (max-width:768px) {
+      flex-direction: column-reverse;
+      margin: 1rem auto;
+    }
+    .left {
+      max-width: 490px;
+      @media (max-width:900px) {
+        max-width: 400px;
+      }
+      @media (max-width:768px) {
+        max-width: 500px;
+        text-align: center;
+      }
+      .b-heading {
+        h1 {
+          font-size: 3rem;
+          font-weight: 700;
+          color: $secondary;
+          @media (max-width:1050px) {
+            font-size: 2.5rem;
+          }
+          @media (max-width:900px) {
+            line-height: 1.35;
+          }
+          span {
+            color: $primary;
+          }
+        }
+      }
+      .sm-heading {
+        max-width: 395px;
+        margin: 1.75rem 0;
+        max-width: 395px;
+        margin: 1.75rem 0;
+        position: relative;
+        top: -4px;
+        @media (max-width:768px) {
+          margin: 1.25rem auto;
+        }
+        p {
+          font-size: 1.125rem;
+          color: $light;
+          @media (max-width:1050px) {
+            font-size: 1.15rem;
+          }
+        }
+      }
+      .h-btns {
+        .primary-btn {
+          margin-right: 2rem;
+          background: $secondary;
+          color: white;
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+          border-color: $secondary;
+          span {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: #ff902b;
+            margin-left: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            svg {
+              path {
+                stroke: white;
+              }
+            }
+          }
+        }
+        .secondary-btn {
+          background: none;
+          border-color: transparent;
+          color: #f4ae26;
+          font-size: 12px;
+          padding: 0.5rem 1.2rem;
+          &:hover {
+            color: $primary;
+            border: 2px solid $primary;
+          }
+        }
+      }
+    }
+    .right {
+      .img-container {
+        position: relative;
+        width: 420px;
+        height: 420px;
+        background: $secondary;
+        background-image: url(../../../Img/Union.png);
+        background-repeat: no-repeat;
+        background-position: 10px center;
+        background-blend-mode: screen;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media (max-width:1050px) {
+          width: 400px;
+          height: 400px;
+        }
+        @media (max-width:900px) {
+          width: 360px;
+          height: 360px;
+        }
+        @media (max-width:768px) {
+          width: 320px;
+          height: 320px;
+        }
+        .group {
+          position: absolute;
+          width: max-content;
+          height: max-content;
+          border-radius: 2.8rem;
+          background: white;
+          padding: 0.7rem 2.5rem;
+          z-index: 12;
+          @media (max-width: 1300px) {
+            padding: 0.5rem 1.4rem;
+          }
+          &::before {
+            content: "";
+            position: absolute;
+            border-radius: inherit;
+            top: -13%;
+            left: -6%;
+            width: 112%;
+            height: 125%;
+            background: linear-gradient(
+              92.95deg,
+              rgba(255, 255, 255, 0.4) 0.82%,
+              rgba(255, 255, 255, 0.7) 96.47%
+            );
+            z-index: -1;
+            @media (max-width: 1300px) {
+              width: 112%;
+              height: 125%;
+            }
+          }
+          span {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: $secondary;
+            @media (max-width: 1300px) {
+              font-size: 1.05rem;
+            }
+            img {
+              position: relative;
+              top: 3px;
+              margin-left: 0.5rem;
+              width: 24px;
+              height: 24px;
+              @media (max-width: 1300px) {
+                width: 20px;
+                height: 20px;
+              }
+            }
+          }
+        }
+        .element1 {
+          top: 5%;
+          left: -5%;
+          &::before {
+            left: -5%;
+            width: 110%;
+            @media (max-width:1300px) {
+              left: -4%;
+              width: 108%;
+            }
+          }
+        }
+        .element2 {
+          top: 25%;
+          right: -5%;
+          @media (max-width:1300px) {
+            top: 20%;
+            right: 2%;
+          }
+        }
+        .element3 {
+          top: 75%;
+          left: 5%;
+        }
+      }
+    }
+  }
+}

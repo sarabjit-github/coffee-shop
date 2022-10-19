@@ -1,0 +1,111 @@
+.alert-con {
+  position: fixed;
+  right: 100px;
+  top: 90px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  margin: 0 auto;
+  z-index: 999999999999999;
+}
+
+.alert {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: .8rem;
+  position: relative;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: .8rem 1.2rem;
+  background: white;
+  -webkit-box-shadow: 1px 3px 50px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 3px 50px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: inherit;
+  -webkit-animation: fade-in .3s ease-in 1;
+          animation: fade-in .3s ease-in 1;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  margin-bottom: 1rem;
+}
+
+.alert svg {
+  width: .9rem;
+}
+
+.alert svg path {
+  fill: #16d320;
+}
+
+.alert p {
+  font-size: .9rem;
+  font-weight: 500;
+  color: #ff902b;
+}
+
+.alert .line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 144, 43, 0.05);
+  border-radius: inherit;
+  -webkit-animation: line 3s linear infinite;
+          animation: line 3s linear infinite;
+}
+
+.alert:hover .line {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@-webkit-keyframes line {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes line {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: .5;
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: .5;
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+/*# sourceMappingURL=alert.css.map */
