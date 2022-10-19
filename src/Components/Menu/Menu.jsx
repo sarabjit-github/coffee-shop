@@ -45,18 +45,6 @@ export const Menu = () => {
     setDisplaySort(false);
   };
 
-  // const clickOutside = () => {
-  //   const sortBtn = document.getElementById("sort-btn");
-  //   const sortCon = document.getElementById("sort-opt");
-  //   const body = document.querySelector("body");
-  //   body.addEventListener("click", (e) => {
-  //     if (!(e.path.includes(sortBtn) || e.path.includes(sortCon))) {
-  //       setDisplaySort(false);
-  //     }
-  //     // console.log(e.path.includes(sortBtn) || e.path.includes(sortCon));
-  //   });
-  // };
-
   const sortRef = useRef(null);
 
   useEffect(() => {

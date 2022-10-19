@@ -301,6 +301,12 @@
   text-align: end;
 }
 
+@media (max-width: 425px) {
+  .cart-con .cart-sec .subtotal {
+    margin-bottom: 1rem;
+  }
+}
+
 .cart-con .cart-sec .subtotal h2 {
   font-size: 1.5rem;
   font-weight: 500;

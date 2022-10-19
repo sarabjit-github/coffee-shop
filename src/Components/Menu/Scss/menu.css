@@ -116,8 +116,8 @@
 .menu-container .mc-con {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(355px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(355px, 1fr));
+  -ms-grid-columns: (minmax(320px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   place-items: center;
   gap: 2.5rem;
   margin-top: 2.5rem;

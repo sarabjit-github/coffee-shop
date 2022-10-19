@@ -88,7 +88,7 @@ $light: #7e7d7a;
     }
     .mc-con{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(355px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
         place-items: center;
         gap: 2.5rem;
         margin-top: 2.5rem;

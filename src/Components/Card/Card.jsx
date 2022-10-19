@@ -4,7 +4,6 @@ import starSvg from "../../Img/star-svg.svg";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../../features/cart/cartSlice";
-import { useEffect } from "react";
 
 export const Card = ({
   id,

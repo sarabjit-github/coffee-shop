@@ -55,7 +55,7 @@ export const Menucard = ({
       initial={{ opacity: 0, y: 100 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      transition={{...transition, delay: `0.${id}`}}
+      transition={{...transition, delay: `0.1${id}`}}
     >
       {/* <div className="card-wrapper"> */}
       <div className="card">
