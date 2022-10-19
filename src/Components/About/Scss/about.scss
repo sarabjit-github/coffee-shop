@@ -13,8 +13,18 @@ $light: #7e7d7a;
   align-items: center;
   gap: 170px;
   margin: 13rem auto 7rem auto;
+  padding: 0 1rem;
+  @media (max-width: 1200px) {
+    gap: 50px;
+  }
+  @media (max-width: 990px) {
+    gap: 25px;
+  }
   .a-left {
     // position: relative;
+    @media (max-width: 768px) {
+      display: none;
+    }
     .a-img {
       // position: absolute;
       width: 370px;
@@ -26,38 +36,51 @@ $light: #7e7d7a;
       justify-content: center;
       align-items: center;
       filter: drop-shadow(0px 6px 16px rgba(0, 0, 0, 0.16));
+      
       img {
+        width: 370px - 10px;
+        height: 510px - 10px;
         border-radius: 0.8rem;
       }
     }
   }
-  .a-right{
+  .a-right {
     max-width: 470px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     // align-items: center;
     // gap: 30px;
-    .heading{
-        margin-bottom: 1.5rem;
+    .heading {
+      margin-bottom: 1.5rem;
+      @media (max-width: 990px) {
+        margin-bottom: 0.7rem;
+      }
     }
-    .sub-heading{
-        max-width: 348px;
-        color: black;
-        margin-bottom: 1.45rem;
+    .sub-heading {
+      max-width: 348px;
+      color: black;
+      margin-bottom: 1.45rem;
+      @media (max-width: 990px) {
+        margin-bottom: 0.65rem;
+      }
     }
-    p:nth-child(3){
-        font-size: 1.125rem;
-        color: $light;
-        letter-spacing: .5px;
-        line-height: 27px;
-        margin-bottom: 1.85rem;
+    p:nth-child(3) {
+      font-size: 1.125rem;
+      color: $light;
+      letter-spacing: 0.5px;
+      line-height: 27px;
+      margin-bottom: 1.85rem;
+      @media (max-width: 990px) {
+        margin-bottom: 1.05rem;
+      }
     }
-    div{
-        button{
-            background: $secondary;
-            color: $primary;
-        }
+    div {
+      button {
+        background: $secondary;
+        color: $primary;
+        border-color: $secondary;
+      }
     }
   }
 }
